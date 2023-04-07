@@ -20,3 +20,6 @@ pytest-metadata==1.8.0
 six==1.14.0
 wcwidth==0.1.9
 zipp==3.1.0
+selenium>=3.14
+pytest-selenium
+pytest-parallel
