@@ -28,7 +28,8 @@ class Test_URL(BasicTest):
         ))
         #assert username == ' '
         print(self.driver.title)
-        sleep(5)
+        sleep(3)
+        self.driver.close()
 
 #Incorrect Email        
     def test_invalid_email(self):
@@ -53,6 +54,8 @@ class Test_URL(BasicTest):
         username.clear()
         password.clear()
         print('Incorrect Email Scenario')
+        sleep(3)
+        self.driver.close()
 
 #Incorrect Password        
     def test_invalid_password(self):
@@ -77,11 +80,19 @@ class Test_URL(BasicTest):
         username.clear()
         password.clear()
         print('Incorrect Password Scenario')
+        sleep(3)
+        self.driver.close()
 
 
 #Unregistered Email        
     def test_unregistered(self):
-        wait = WebDriverWait(self.driver, 20)
+        wait = WebDriverWait(self.driver, 10)
+        self.driver.get("https://www.browserstack.com/live")
+        self.driver.maximize_window()
+        sign_link = wait.until(EC.presence_of_element_located(
+        (By.LINK_TEXT, 'Sign in')
+        ))
+        sign_link.click()
         username = wait.until(EC.presence_of_element_located(
             (By.CSS_SELECTOR, '#user_email_login')
         ))
@@ -102,6 +113,8 @@ class Test_URL(BasicTest):
         ))    
         #assert username == ' '
         print('Unregistered Mail Scenario')
+        sleep(3)
+        self.driver.close()
 
 
 #Correct Scenario
@@ -127,4 +140,6 @@ class Test_URL(BasicTest):
             (By.LINK_TEXT, 'Live')))
         #time.sleep(10)
         print('Correct Scenario')
+        sleep(3)
+        self.driver.close()
 
