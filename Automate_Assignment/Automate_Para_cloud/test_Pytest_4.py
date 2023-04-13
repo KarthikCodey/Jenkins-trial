@@ -28,6 +28,7 @@ class Test_URL(BasicTest):
         ))
         #assert username == ' '
         print(self.driver.title)
+        self.driver.quit()
 
 #Incorrect Email        
     def test_invalid_email(self):
@@ -52,6 +53,7 @@ class Test_URL(BasicTest):
         username.clear()
         password.clear()
         print('Incorrect Email Scenario')
+        self.driver.quit()
 
 #Incorrect Password        
     def test_invalid_password(self):
@@ -76,6 +78,7 @@ class Test_URL(BasicTest):
         username.clear()
         password.clear()
         print('Incorrect Password Scenario')
+        self.driver.quit()
 
 
 #Unregistered Email        
@@ -107,6 +110,7 @@ class Test_URL(BasicTest):
         ))    
         #assert username == ' '
         print('Unregistered Mail Scenario')
+        self.driver.quit()
 
 
 #Correct Scenario
@@ -132,3 +136,4 @@ class Test_URL(BasicTest):
             (By.LINK_TEXT, 'Live')))
         #time.sleep(10)
         print('Correct Scenario')
+        self.driver.quit()
