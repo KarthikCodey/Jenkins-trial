@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
  
-@pytest.mark.usefixtures("driver_init_5")
+@pytest.mark.usefixtures("driver_init_4")
 class BasicTest:
     pass
 class Test_URL(BasicTest):
