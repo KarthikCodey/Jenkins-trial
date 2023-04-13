@@ -149,7 +149,7 @@ def driver_init_1(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = ch_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
 
 @pytest.fixture(scope="class")
 def driver_init_2(request):
@@ -158,7 +158,7 @@ def driver_init_2(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = ch1_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_3(request):
@@ -167,7 +167,7 @@ def driver_init_3(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = saf_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_4(request):
@@ -176,7 +176,7 @@ def driver_init_4(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = saf1_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_5(request):
@@ -185,7 +185,7 @@ def driver_init_5(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = fire_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_6(request):
@@ -194,7 +194,7 @@ def driver_init_6(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = fire1_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_7(request):
@@ -203,7 +203,7 @@ def driver_init_7(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = ie_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_8(request):
@@ -212,7 +212,7 @@ def driver_init_8(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = ie1_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_9(request):
@@ -221,7 +221,7 @@ def driver_init_9(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = edge_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
     
 @pytest.fixture(scope="class")
 def driver_init_91(request):
@@ -230,5 +230,5 @@ def driver_init_91(request):
     web_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = edge1_cap)
     request.cls.driver = web_driver
     yield
-    web_driver.close()
+    web_driver.quit()
 
