@@ -31,83 +31,83 @@ chrome_options = webdriver.FirefoxOptions()
 # set browser options as required
 driver = webdriver.Remote(url, options=chrome_options)
 
+def test_one():
+    try:
+        wait = WebDriverWait(driver, 20)
+        driver.get('https://www.browserstack.com/live')
+        sign_link = wait.until(EC.presence_of_element_located(
+            (By.LINK_TEXT, 'Sign in')
+        ))
+        sign_link.click()
 
-try:
-    wait = WebDriverWait(driver, 20)
-    driver.get('https://www.browserstack.com/live')
-    sign_link = wait.until(EC.presence_of_element_located(
-        (By.LINK_TEXT, 'Sign in')
-    ))
-    sign_link.click()
-    
-    #Incorrect Email
-    username = wait.until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, '#user_email_login')
-    ))
-    username.send_keys('warne708murali800gmail.com')
-    
-    password = driver.find_element(By.CSS_SELECTOR, '#user_password')
-    password.send_keys('Shane@800')
-    
-    
-    driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
+        #Incorrect Email
+        username = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '#user_email_login')
+        ))
+        username.send_keys('warne708murali800gmail.com')
 
-    
-    time.sleep(3)
-    username.clear()
-    password.clear()
-    print('Incorrect Email Scenario')
+        password = driver.find_element(By.CSS_SELECTOR, '#user_password')
+        password.send_keys('Shane@800')
 
-    #Incorrect Password
-    username = wait.until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, '#user_email_login')
-    ))
-    username.send_keys('warne708murali800@gmail.com')
-    
-    password = driver.find_element(By.CSS_SELECTOR, '#user_password')
-    password.send_keys('Shane$800')
-    
-    
-    driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
-    
-    time.sleep(3)
-    username.clear()
-    password.clear()
-    print('Incorrect Password Scenario')
 
-    #Unregistered Email
-    username = wait.until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, '#user_email_login')
-    ))
-    username.send_keys('warne708murali800@hmail.com')
-    password = driver.find_element(By.CSS_SELECTOR, '#user_password')
-    password.click()
-    #time.sleep(3)
-    lusername = wait.until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, '#user_full_name')
-    ))
-    time.sleep(3)
+        driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
 
-    choices = driver.find_element(By.CSS_SELECTOR,"a.sign-in-link")
-    choices.click()
-    
-    time.sleep(3)
-    print('Unregistered Mail Scenario')
-    
-    #Correct Scenario
-    username = wait.until(EC.presence_of_element_located(
-        (By.CSS_SELECTOR, '#user_email_login')
-    ))
-    username.send_keys('warne708murali800@gmail.com')
-    
-    password = driver.find_element(By.CSS_SELECTOR, '#user_password')
-    password.send_keys('Shane@800')
-    
-    driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
-    WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
-        (By.LINK_TEXT, 'Live')))
 
-    print('Correct Scenario')
+        time.sleep(3)
+        username.clear()
+        password.clear()
+        print('Incorrect Email Scenario')
 
-finally:
-    driver.quit()
+        #Incorrect Password
+        username = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '#user_email_login')
+        ))
+        username.send_keys('warne708murali800@gmail.com')
+
+        password = driver.find_element(By.CSS_SELECTOR, '#user_password')
+        password.send_keys('Shane$800')
+
+
+        driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
+
+        time.sleep(3)
+        username.clear()
+        password.clear()
+        print('Incorrect Password Scenario')
+
+        #Unregistered Email
+        username = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '#user_email_login')
+        ))
+        username.send_keys('warne708murali800@hmail.com')
+        password = driver.find_element(By.CSS_SELECTOR, '#user_password')
+        password.click()
+        #time.sleep(3)
+        lusername = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '#user_full_name')
+        ))
+        time.sleep(3)
+
+        choices = driver.find_element(By.CSS_SELECTOR,"a.sign-in-link")
+        choices.click()
+
+        time.sleep(3)
+        print('Unregistered Mail Scenario')
+
+        #Correct Scenario
+        username = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '#user_email_login')
+        ))
+        username.send_keys('warne708murali800@gmail.com')
+
+        password = driver.find_element(By.CSS_SELECTOR, '#user_password')
+        password.send_keys('Shane@800')
+
+        driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
+        WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
+            (By.LINK_TEXT, 'Live')))
+
+        print('Correct Scenario')
+
+    finally:
+        driver.quit()
