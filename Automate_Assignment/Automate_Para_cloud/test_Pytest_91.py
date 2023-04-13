@@ -132,5 +132,3 @@ class Test_URL(BasicTest):
             (By.LINK_TEXT, 'Live')))
         #time.sleep(10)
         print('Correct Scenario')
-
-
