@@ -105,7 +105,7 @@ try:
     
     driver.find_element(By.CSS_SELECTOR, '#user_submit').click()
     #WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
-    #    (By.LINK_TEXT, 'Live')))
+    #    (By.LINK_TEXT, 'Live1')))
 
     print('Correct Scenario')
 
