@@ -3,15 +3,15 @@
 # =============================
 # Add your BrowserStack userName and acccessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: karthik533
-accessKey: xKaXkaGAnzjFNKmzkqmY
+userName: !env_var BROWSERSTACK_USERNAME
+accessKey: !env_var BROWSERSTACK_ACCESS_KEY
 
 # ======================
 # BrowserStack Reporting
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: BrowserStack Samples Jenk
+projectName: BrowserStack Samples
 # Set `buildName` as the name of the job / testsuite being run
 buildName: BrowserStack Samples Jenk
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
