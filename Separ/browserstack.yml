@@ -7,10 +7,6 @@
 userName: !env_var BROWSERSTACK_USERNAME 
 accessKey: !env_var BROWSERSTACK_ACCESS_KEY
 
-# ======================
-# BrowserStack Reporting
-# ======================
-# The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
 projectName: BrowserStack Samples Jenk
 # Set `buildName` as the name of the job / testsuite being run
@@ -60,6 +56,7 @@ parallelsPerPlatform: 1
 # Set browserStackLocal to true if your website under test is not accessible publicly over the internet
 # Learn more about how BrowserStack Local works here -> https://www.browserstack.com/docs/automate/selenium/local-testing-introduction
 browserstackLocal: false # <boolean> (Default false)
+testObservability: true
 
 # browserStackLocalOptions:
 # Options to be passed to BrowserStack local in-case of advanced configurations
@@ -77,4 +74,3 @@ consoleLogs: errors # <string> Remote browser's console debug levels to be print
 
 # Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
 # Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
-testObservability: true
