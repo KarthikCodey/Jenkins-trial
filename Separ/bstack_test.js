@@ -27,7 +27,7 @@ describe('BrowserStack Login Scenarios', function() {
     await submitButton.click();
 
     await driver.sleep(3000);
-    const errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
+    let errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
     //const errorMessageText =  await driver.findElement(By.css('#user_email_login + .error-msg)).getText();
     assert.equal(errorMessageText, "Invalid Email"); 
 
@@ -36,18 +36,18 @@ describe('BrowserStack Login Scenarios', function() {
   });
 
   it('should handle incorrect password scenario', async function() {
-    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+    //let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800@gmail.com');
 
-    let password = await driver.findElement(By.css('#user_password'));
+    //let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane$800');
 
-    let submitButton = await driver.findElement(By.css('#user_submit'));
+    //let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
     await driver.sleep(3000);
     
-    const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
+    let errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('#user_password + .error-msg')).getText();
     // /html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]
@@ -73,16 +73,18 @@ describe('BrowserStack Login Scenarios', function() {
   //});
 
   it('should login successfully with correct credentials', async function() {
-    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+    //let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800@gmail.com');
 
-    let password = await driver.findElement(By.css('#user_password'));
+    //let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane@800');
 
-    let submitButton = await driver.findElement(By.css('#user_submit'));
+    //let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
-    await driver.wait(until.elementLocated(By.linkText('Live')), 10000);
+    let link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
+    assert.equal(link, "Live");
+    
   });
 
   after(async function() {
