@@ -47,7 +47,8 @@ describe('BrowserStack Login Scenarios', function() {
 
     await driver.sleep(3000);
     
-    const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
+    //const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
+    const errorMessageText1 =  await driver.findElement(By.css(span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('#user_password + .error-msg')).getText();
     assert.equal(errorMessageText1, "Invalid password");
     await username.clear();
