@@ -46,7 +46,7 @@ describe('BrowserStack Login Scenarios', function() {
     let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
-    await driver.sleep(3000);
+    await driver.sleep(10000);
     
     //const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('span[aria-live="polite"]')).getText();
