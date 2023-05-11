@@ -36,13 +36,13 @@ describe('BrowserStack Login Scenarios', function() {
   });
 
   it('should handle incorrect password scenario', async function() {
-    //let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800@gmail.com');
 
-    //let password = await driver.findElement(By.css('#user_password'));
+    let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane$800');
 
-    //let submitButton = await driver.findElement(By.css('#user_submit'));
+    let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
     await driver.sleep(3000);
@@ -73,16 +73,17 @@ describe('BrowserStack Login Scenarios', function() {
   //});
 
   it('should login successfully with correct credentials', async function() {
-    //let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800@gmail.com');
 
-    //let password = await driver.findElement(By.css('#user_password'));
+    let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane@800');
 
-    //let submitButton = await driver.findElement(By.css('#user_submit'));
+    let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
     let link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
+    console.log(link);
     assert.equal(link, "Live");
     
   });
