@@ -27,7 +27,7 @@ describe('BrowserStack Login Scenarios', function() {
     await submitButton.click();
 
     await driver.sleep(3000);
-    let errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
+    const errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
     //const errorMessageText =  await driver.findElement(By.css('#user_email_login + .error-msg)).getText();
     assert.equal(errorMessageText, "Invalid Email"); 
 
@@ -47,7 +47,7 @@ describe('BrowserStack Login Scenarios', function() {
 
     await driver.sleep(3000);
     
-    let errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
+    const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('#user_password + .error-msg')).getText();
     // /html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]
@@ -82,7 +82,7 @@ describe('BrowserStack Login Scenarios', function() {
     let submitButton = await driver.findElement(By.css('#user_submit'));
     await submitButton.click();
 
-    let link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
+    const link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
     console.log(link);
     assert.equal(link, "Live");
     
