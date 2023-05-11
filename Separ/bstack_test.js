@@ -28,7 +28,7 @@ describe('BrowserStack Login Scenarios', function() {
 
     await driver.sleep(3000);
     const errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
-    //const errorMessageText =  await driver.findElement(By.css('#user_email_login + .error-msg')).getText();
+    //const errorMessageText =  await driver.findElement(By.css('#user_email_login + .error-msg)).getText();
     assert.equal(errorMessageText, "Invalid Email"); 
 
     await username.clear();
