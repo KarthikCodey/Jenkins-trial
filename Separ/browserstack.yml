@@ -4,8 +4,8 @@
 # Add your BrowserStack userName and acccessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
 
-userName: !env_var BROWSERSTACK_USERNAME 
-accessKey: !env_var BROWSERSTACK_ACCESS_KEY
+userName: karthik533
+accessKey: xKaXkaGAnzjFNKmzkqmY
 
 # Set 'projectName' to the name of your project. Example, Marketing Website
 projectName: BrowserStack Samples Jenk
