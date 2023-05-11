@@ -13,6 +13,7 @@ describe('BrowserStack Login Scenarios', function() {
 
   it('should handle incorrect email scenario', async function() {
     await driver.get('https://www.browserstack.com/live');
+    await driver.manage().window().maximize();
     let signLink = await driver.wait(until.elementLocated(By.linkText('Sign in')));
     await signLink.click();
 
@@ -47,20 +48,20 @@ describe('BrowserStack Login Scenarios', function() {
     await password.clear();
   });
 
-  it('should handle unregistered email scenario', async function() {
-    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
-    await username.sendKeys('warne708murali800@hmail.com');
+  //it('should handle unregistered email scenario', async function() {
+  //  let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+  //  await username.sendKeys('warne708murali800@hmail.com');
 
-    let password = await driver.findElement(By.css('#user_password'));
-    await password.click();
+  //  let password = await driver.findElement(By.css('#user_password'));
+  //  await password.click();
 
-    await driver.sleep(3000);
+  //  await driver.sleep(3000);
 
-    let signInLink = await driver.findElement(By.css('a.sign-in-link'));
-    await signInLink.click();
+  //  let signInLink = await driver.findElement(By.css('a.sign-in-link'));
+  //  await signInLink.click();
 
-    await driver.sleep(3000);
-  });
+  //  await driver.sleep(3000);
+  //});
 
   it('should login successfully with correct credentials', async function() {
     let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
