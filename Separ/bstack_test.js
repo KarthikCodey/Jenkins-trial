@@ -37,7 +37,7 @@ describe('BrowserStack Login Scenarios', function() {
   });
 
   it('should handle incorrect password scenario', async function() {
-    let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
+    let username = await driver.findElement(By.css('#user_email_login'));
     await username.sendKeys('warne708murali800@gmail.com');
 
     let password = await driver.findElement(By.css('#user_password'));
@@ -51,7 +51,7 @@ describe('BrowserStack Login Scenarios', function() {
     //const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('#user_password + .error-msg')).getText();
-    const errorMessageText1 =  await driver.findElement(By.xpath('/html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]'),20000).getText();
+    const errorMessageText1 =  await driver.wait(until.elementLocated(By.xpath('/html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]'),20000)).getText();
     console.log(errorMessageText1)
     assert.equal(errorMessageText1, "Invalid password");
     await username.clear();
