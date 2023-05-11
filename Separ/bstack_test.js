@@ -21,10 +21,11 @@ describe('BrowserStack Login Scenarios', function() {
     await username.sendKeys('warne708murali800gmail.com');
 
     let password = await driver.findElement(By.css('#user_password'));
-    await password.sendKeys('Shane@800');
+    await username.click();
+    //await password.sendKeys('Shane@800');
 
-    let submitButton = await driver.findElement(By.css('#user_submit'));
-    await submitButton.click();
+    //let submitButton = await driver.findElement(By.css('#user_submit'));
+    //await submitButton.click();
 
     await driver.sleep(3000);
     const errorMessageText =  await driver.findElement(By.css('div[class="error-msg show"] span[aria-live="polite"]')).getText();
@@ -32,7 +33,7 @@ describe('BrowserStack Login Scenarios', function() {
     assert.equal(errorMessageText, "Invalid Email"); 
 
     await username.clear();
-    await password.clear();
+    //await password.clear();
   });
 
   it('should handle incorrect password scenario', async function() {
