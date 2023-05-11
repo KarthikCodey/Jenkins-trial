@@ -30,7 +30,7 @@ source: mocha:sample-master:v1.0
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
   - os: OS X
-    osVersion: Big Sur
+    osVersion: Monterey
     browserName: Chrome
     browserVersion: latest
   - os: Windows
@@ -42,11 +42,11 @@ platforms:
     browserName: Firefox
     browserVersion: latest
   - os: OS X
-    osVersion: Big Sur
+    osVersion: Monterey
     browserName: Edge
     browserVersion: latest  
   - os: OS X
-    osVersion: Big Sur
+    osVersion: Monterey
     browserName: Firefox
     browserVersion: latest
   - os: Windows
@@ -54,7 +54,7 @@ platforms:
     browserName: IE
     browserVersion: latest  
   - os: Windows
-    osVersion: 8
+    osVersion: 8.1
     browserName: IE
     browserVersion: latest  
   - os: Windows
@@ -62,7 +62,7 @@ platforms:
     browserName: Chrome
     browserVersion: latest
   - os: OS X
-    osVersion: Big Sur
+    osVersion: Ventura
     browserName: Safari
     browserVersion: latest
   - os: OS X
