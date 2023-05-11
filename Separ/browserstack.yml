@@ -29,8 +29,8 @@ source: mocha:sample-master:v1.0
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - os: OS X
-    osVersion: Monterey
+  - os: Windows
+    osVersion: 11
     browserName: Chrome
     browserVersion: latest
   - os: Windows
@@ -41,12 +41,12 @@ platforms:
     osVersion: 10
     browserName: Firefox
     browserVersion: latest
-  - os: OS X
-    osVersion: Monterey
+  - os: Windows
+    osVersion: 11
     browserName: Edge
     browserVersion: latest  
-  - os: OS X
-    osVersion: Monterey
+  - os: Windows
+    osVersion: 11
     browserName: Firefox
     browserVersion: latest
   - os: Windows
