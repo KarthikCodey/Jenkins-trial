@@ -3,7 +3,7 @@ exports.config = {
   key: process.env.BROWSERSTACK_ACCESS_KEY || 'xKaXkaGAnzjFNKmzkqmY',
 
   updateJob: false,
-  specs: ['./tests/specs/wikiiostest.js'],
+  specs: ['wikitest.js'],
   exclude: [],
 
   logLevel: 'warn',
