@@ -21,7 +21,7 @@ describe('BrowserStack Login Scenarios', function() {
     await username.sendKeys('warne708murali800gmail.com');
 
     let password = await driver.findElement(By.css('#user_password'));
-    await username.click();
+    await password.click();
     //await password.sendKeys('Shane@800');
 
     //let submitButton = await driver.findElement(By.css('#user_submit'));
