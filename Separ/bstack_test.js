@@ -37,8 +37,8 @@ describe('BrowserStack Login Scenarios', function() {
   });
 
   it('should handle incorrect password scenario', async function() {
-    let username = await driver.findElement(By.css('#user_email_login')).clear();
-    await username.sendKeys('warne708murali800@gmail.com');
+    let username = await driver.findElement(By.css('#user_email_login'));
+    await username.sendKeys('warne708murali800gmail.com');
 
     let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane$800');
