@@ -53,11 +53,11 @@ platforms:
     osVersion: 10
     browserName: IE
     browserVersion: latest  
- - os: Windows
+  - os: Windows
     osVersion: 8
     browserName: IE
     browserVersion: latest  
- - os: Windows
+  - os: Windows
     osVersion: 10
     browserName: Chrome
     browserVersion: latest
