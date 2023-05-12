@@ -85,7 +85,7 @@ describe('BrowserStack Login Scenarios', function() {
 
     const submitButton = await driver.wait(until.elementLocated(By.css('#user_submit')),10000).click();
     await driver.sleep(5000);
-    submitButton.click();
+    await submitButton.click();
     //await submitButton.click();
 
     const link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
