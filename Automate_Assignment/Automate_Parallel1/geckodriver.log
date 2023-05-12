@@ -1,0 +1,714 @@
+1680538920992	geckodriver	INFO	Listening on 127.0.0.1:63277
+1680538920992	geckodriver	INFO	Listening on 127.0.0.1:63257
+1680538921451	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63258" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileZzQjOz"
+1680538921451	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63278" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileCvfURk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680538922606	Marionette	INFO	Marionette enabled
+1680538922606	Marionette	INFO	Marionette enabled
+1680538922771	Marionette	INFO	Listening on port 63314
+Read port: 63314
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1680538923099	Marionette	INFO	Listening on port 63317
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63317
+WebDriver BiDi listening on ws://127.0.0.1:63258
+WebDriver BiDi listening on ws://127.0.0.1:63278
+1680538923253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1680538923271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-04-03 21:52:03.424 plugin-container[7801:6894157] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.424 plugin-container[7800:6894152] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.424 plugin-container[7801:6894157] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:03.424 plugin-container[7800:6894152] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:03.587 plugin-container[7800:6894152] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.587 plugin-container[7801:6894157] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.587 plugin-container[7801:6894157] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:03.587 plugin-container[7800:6894152] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:03.588 plugin-container[7801:6894149] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.588 plugin-container[7801:6894149] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:03.588 plugin-container[7800:6894165] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:03.588 plugin-container[7800:6894165] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileZzQjOz/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileCvfURk/search.json.mozlz4", (void 0)))
+2023-04-03 16:22:04.922 plugin-container[7806:6894660] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.922 plugin-container[7806:6894660] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:04.924 plugin-container[7806:6894660] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.924 plugin-container[7806:6894660] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:04.924 plugin-container[7806:6894666] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.924 plugin-container[7806:6894666] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:63278/devtools/browser/42433e97-c518-4dc9-a734-047ef86c50d9
+2023-04-03 16:22:04.943 plugin-container[7808:6894665] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.943 plugin-container[7808:6894665] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:04.947 plugin-container[7808:6894665] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.947 plugin-container[7808:6894665] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:04.947 plugin-container[7808:6894667] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:04.947 plugin-container[7808:6894667] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:63258/devtools/browser/16ce1e14-b5a1-48e6-8a39-da41a8bd8a6c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680538930060	geckodriver	INFO	Listening on 127.0.0.1:63391
+1680538930570	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63392" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile5dYeL4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680538931129	Marionette	INFO	Marionette enabled
+1680538931191	Marionette	INFO	Listening on port 63465
+Read port: 63465
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-03 21:52:11.225 plugin-container[7836:6895130] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:11.225 plugin-container[7836:6895130] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:11.243 plugin-container[7836:6895130] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:11.243 plugin-container[7836:6895130] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 21:52:11.243 plugin-container[7836:6895128] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 21:52:11.243 plugin-container[7836:6895128] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:63392
+1680538931322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile5dYeL4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63392/devtools/browser/7dd0f4bb-02bf-46e2-b820-4879c55a1150
+2023-04-03 16:22:13.474 plugin-container[7842:6895457] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:13.474 plugin-container[7842:6895457] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:13.486 plugin-container[7842:6895457] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:13.486 plugin-container[7842:6895457] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:22:13.488 plugin-container[7842:6895453] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:22:13.488 plugin-container[7842:6895453] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680538943659	Marionette	INFO	Stopped listening on port 63465
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680538945663	Marionette	INFO	Stopped listening on port 63314
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680538947139	Marionette	INFO	Stopped listening on port 63317
+1680541194965	geckodriver	INFO	Listening on 127.0.0.1:57843
+1680541195482	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57844" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileOc8T68"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541196304	Marionette	INFO	Marionette enabled
+1680541196415	Marionette	INFO	Listening on port 57871
+Read port: 57871
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:57844
+2023-04-03 22:29:56.745 plugin-container[9000:6926626] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:29:56.748 plugin-container[9000:6926626] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680541196999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-04-03 22:29:57.478 plugin-container[9000:6926626] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:29:57.478 plugin-container[9000:6926626] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:29:57.484 plugin-container[9000:6926629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:29:57.484 plugin-container[9000:6926629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileOc8T68/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57844/devtools/browser/894c5f2e-0c00-4bde-9a7c-2a805f66c358
+2023-04-03 16:59:59.388 plugin-container[9016:6926950] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:59:59.388 plugin-container[9016:6926950] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:59:59.392 plugin-container[9016:6926950] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:59:59.392 plugin-container[9016:6926950] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:59:59.393 plugin-container[9016:6926994] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:59:59.393 plugin-container[9016:6926994] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680541199518	geckodriver	INFO	Listening on 127.0.0.1:57873
+1680541200028	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57874" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileYZlGhS"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541200547	Marionette	INFO	Marionette enabled
+1680541200610	Marionette	INFO	Listening on port 57936
+Read port: 57936
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-03 22:30:00.679 plugin-container[9030:6927197] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:00.679 plugin-container[9030:6927197] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:30:00.698 plugin-container[9030:6927197] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:00.698 plugin-container[9030:6927197] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:30:00.698 plugin-container[9030:6927195] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:00.698 plugin-container[9030:6927195] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:57874
+1680541200752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileYZlGhS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57874/devtools/browser/ec00f1e2-add5-4c53-ae5a-d66dc1246c35
+2023-04-03 17:00:02.497 plugin-container[9034:6927433] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:02.498 plugin-container[9034:6927433] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:00:02.547 plugin-container[9034:6927433] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:02.548 plugin-container[9034:6927433] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:00:02.550 plugin-container[9034:6927439] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:02.550 plugin-container[9034:6927439] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680541205418	geckodriver	INFO	Listening on 127.0.0.1:57977
+1680541205927	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57978" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileOzQnNT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541206463	Marionette	INFO	Marionette enabled
+1680541206529	Marionette	INFO	Listening on port 58052
+Read port: 58052
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-03 22:30:06.559 plugin-container[9059:6927755] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:06.560 plugin-container[9059:6927755] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:30:06.562 plugin-container[9059:6927755] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:06.562 plugin-container[9059:6927755] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:30:06.562 plugin-container[9059:6927759] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:30:06.562 plugin-container[9059:6927759] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:57978
+1680541206653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileOzQnNT/search.json.mozlz4", (void 0)))
+2023-04-03 17:00:08.516 plugin-container[9064:6928000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:08.517 plugin-container[9064:6928000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:00:08.521 plugin-container[9064:6928000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:08.521 plugin-container[9064:6928000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:00:08.521 plugin-container[9064:6928009] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:00:08.521 plugin-container[9064:6928009] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:57978/devtools/browser/982e5e28-fc2f-4c9b-a232-605f0b0e498d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680541214418	Marionette	INFO	Stopped listening on port 57871
+1680541218964	Marionette	INFO	Stopped listening on port 58052
+1680541223191	Marionette	INFO	Stopped listening on port 57936
+1680541652014	geckodriver	INFO	Listening on 127.0.0.1:60313
+1680541652529	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60314" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile9XEqE1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541653293	Marionette	INFO	Marionette enabled
+2023-04-03 22:37:33.427 plugin-container[9405:6934051] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:33.427 plugin-container[9405:6934051] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:33.436 plugin-container[9405:6934051] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:33.436 plugin-container[9405:6934051] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:33.436 plugin-container[9405:6934049] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:33.436 plugin-container[9405:6934049] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680541653478	Marionette	INFO	Listening on port 60339
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:60314
+Read port: 60339
+1680541653834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile9XEqE1/search.json.mozlz4", (void 0)))
+2023-04-03 17:07:35.334 plugin-container[9411:6934305] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:35.334 plugin-container[9411:6934305] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:35.339 plugin-container[9411:6934305] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:35.339 plugin-container[9411:6934305] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:35.340 plugin-container[9411:6934309] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:35.340 plugin-container[9411:6934309] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:60314/devtools/browser/79f93a12-70e1-40af-89dd-599d1049ae22
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1680541658891	geckodriver	INFO	Listening on 127.0.0.1:60392
+1680541659401	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60393" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileKAPCV2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541659877	Marionette	INFO	Marionette enabled
+2023-04-03 22:37:39.970 plugin-container[9442:6934719] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:39.970 plugin-container[9442:6934719] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:39.972 plugin-container[9442:6934719] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:39.972 plugin-container[9442:6934719] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:39.972 plugin-container[9442:6934724] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:39.972 plugin-container[9442:6934724] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680541660062	Marionette	INFO	Listening on port 60460
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 60460
+WebDriver BiDi listening on ws://127.0.0.1:60393
+1680541660154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1680541660579	geckodriver	INFO	Listening on 127.0.0.1:60470
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileKAPCV2/search.json.mozlz4", (void 0)))
+1680541661083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60471" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRVhImK"
+DevTools listening on ws://127.0.0.1:60393/devtools/browser/fb0f6aaf-2743-479b-a1c7-19005ab29b18
+2023-04-03 17:07:41.216 plugin-container[9463:6934993] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:41.216 plugin-container[9463:6934993] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:41.220 plugin-container[9463:6934993] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:41.220 plugin-container[9463:6934993] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:41.221 plugin-container[9463:6934994] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:41.221 plugin-container[9463:6934994] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680541661394	Marionette	INFO	Marionette enabled
+1680541661456	Marionette	INFO	Listening on port 60502
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 60502
+2023-04-03 22:37:41.561 plugin-container[9467:6935116] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:41.561 plugin-container[9467:6935116] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:41.568 plugin-container[9467:6935116] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:41.568 plugin-container[9467:6935116] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 22:37:41.568 plugin-container[9467:6935123] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 22:37:41.568 plugin-container[9467:6935123] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:60471
+1680541661664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRVhImK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60471/devtools/browser/3df45db6-31e8-4704-bd4c-7a98b147f000
+2023-04-03 17:07:43.003 plugin-container[9472:6935447] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:43.003 plugin-container[9472:6935447] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:43.039 plugin-container[9472:6935447] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:43.040 plugin-container[9472:6935447] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:07:43.040 plugin-container[9472:6935450] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:07:43.040 plugin-container[9472:6935450] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680541672199	Marionette	INFO	Stopped listening on port 60502
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680541678193	Marionette	INFO	Stopped listening on port 60339
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-9f49e35346.js, line 8: unreachable code after return statement
+1680541680361	Marionette	INFO	Stopped listening on port 60460
+1683102682515	geckodriver	INFO	Listening on 127.0.0.1:62787
+1683102682969	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileNCibwI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683102683885	Marionette	INFO	Marionette enabled
+1683102683989	Marionette	INFO	Listening on port 62802
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 62802
+2023-05-03 14:01:24.055 plugin-container[80193:13812452] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 14:01:24.055 plugin-container[80193:13812452] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-03 14:01:24.059 plugin-container[80193:13812452] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 14:01:24.059 plugin-container[80193:13812452] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-03 14:01:24.059 plugin-container[80193:13812449] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 14:01:24.059 plugin-container[80193:13812449] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:62788
+1683102684117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileNCibwI/search.json.mozlz4", (void 0)))
+2023-05-03 08:31:25.576 plugin-container[80198:13812716] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 08:31:25.576 plugin-container[80198:13812716] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:62788/devtools/browser/d53bacb0-f31a-42a8-9e9d-c0eea74ac075
+2023-05-03 08:31:25.621 plugin-container[80198:13812716] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 08:31:25.621 plugin-container[80198:13812716] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-03 08:31:25.621 plugin-container[80198:13812723] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-03 08:31:25.621 plugin-container[80198:13812723] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1683102728832	Marionette	INFO	Stopped listening on port 62802
+1683877480558	geckodriver	INFO	Listening on 127.0.0.1:60565
+1683877481070	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilemWhnv9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683877482193	Marionette	INFO	Marionette enabled
+1683877482320	Marionette	INFO	Listening on port 60594
+Read port: 60594
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-05-12 13:14:42.542 plugin-container[29818:19548068] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:14:42.572 plugin-container[29818:19548068] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:60566
+1683877483326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 13:14:43.485 plugin-container[29818:19548068] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:14:43.485 plugin-container[29818:19548068] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:14:43.486 plugin-container[29818:19548076] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:14:43.486 plugin-container[29818:19548076] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilemWhnv9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60566/devtools/browser/5707ef29-97cc-49c1-a76f-0e90c9e57db6
+2023-05-12 07:44:46.081 plugin-container[29825:19548360] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 07:44:46.081 plugin-container[29825:19548360] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 07:44:46.094 plugin-container[29825:19548360] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 07:44:46.094 plugin-container[29825:19548360] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 07:44:46.094 plugin-container[29825:19548363] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 07:44:46.094 plugin-container[29825:19548363] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1683877544052	Marionette	INFO	Stopped listening on port 60594
+1683878668936	geckodriver	INFO	Listening on 127.0.0.1:51221
+1683878669452	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileZA3rgH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683878671114	Marionette	INFO	Marionette enabled
+1683878671376	Marionette	INFO	Listening on port 51269
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51269
+WebDriver BiDi listening on ws://127.0.0.1:51222
+2023-05-12 13:34:31.575 plugin-container[33566:19594607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:34:31.576 plugin-container[33566:19594607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1683878671597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 13:34:31.607 plugin-container[33566:19594607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:34:31.607 plugin-container[33566:19594607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:34:31.607 plugin-container[33566:19594638] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:34:31.607 plugin-container[33566:19594638] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileZA3rgH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51222/devtools/browser/ecd418df-5099-4034-b618-4732ca5829c4
+2023-05-12 08:04:36.090 plugin-container[33590:19595203] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:04:36.091 plugin-container[33590:19595203] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:04:36.120 plugin-container[33590:19595203] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:04:36.120 plugin-container[33590:19595203] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:04:36.120 plugin-container[33590:19595214] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:04:36.120 plugin-container[33590:19595214] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683878710532	Marionette	INFO	Stopped listening on port 51269
+1683878811288	geckodriver	INFO	Listening on 127.0.0.1:52204
+1683878811288	geckodriver	INFO	Listening on 127.0.0.1:52202
+1683878811801	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile4seNW6"
+1683878811801	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRuqAlV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683878813405	Marionette	INFO	Marionette enabled
+1683878813405	Marionette	INFO	Marionette enabled
+1683878813616	Marionette	INFO	Listening on port 52251
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 52251
+1683878813691	Marionette	INFO	Listening on port 52253
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52205
+WebDriver BiDi listening on ws://127.0.0.1:52203
+Read port: 52253
+1683878813843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 13:36:53.917 plugin-container[33856:19598953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:53.918 plugin-container[33856:19598953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:36:53.917 plugin-container[33855:19598957] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:53.918 plugin-container[33855:19598957] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1683878813929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 13:36:54.554 plugin-container[33856:19598953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:54.554 plugin-container[33855:19598957] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:54.568 plugin-container[33855:19598957] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:36:54.570 plugin-container[33856:19598953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:36:54.576 plugin-container[33855:19599239] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:54.576 plugin-container[33855:19599239] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:36:54.576 plugin-container[33856:19599224] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:36:54.577 plugin-container[33856:19599224] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile4seNW6/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRuqAlV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52205/devtools/browser/ba004d42-993f-40ec-aece-df67159aa080
+DevTools listening on ws://127.0.0.1:52203/devtools/browser/82fb3a35-0c3f-427a-b39b-ce02f9a700a1
+2023-05-12 08:06:56.782 plugin-container[33872:19599629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.782 plugin-container[33872:19599629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:06:56.788 plugin-container[33871:19599630] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.788 plugin-container[33871:19599630] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:06:56.802 plugin-container[33872:19599629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.802 plugin-container[33872:19599629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:06:56.802 plugin-container[33871:19599630] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.802 plugin-container[33871:19599630] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:06:56.802 plugin-container[33872:19599723] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.802 plugin-container[33872:19599723] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:06:56.802 plugin-container[33871:19599670] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:06:56.802 plugin-container[33871:19599670] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683878850604	Marionette	INFO	Stopped listening on port 52251
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683878851655	Marionette	INFO	Stopped listening on port 52253
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1683878873710	geckodriver	INFO	Listening on 127.0.0.1:52878
+1683878874219	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileKQdVQL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683878875286	Marionette	INFO	Marionette enabled
+1683878875444	Marionette	INFO	Listening on port 52931
+Read port: 52931
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-05-12 13:37:55.515 plugin-container[34068:19602553] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:37:55.516 plugin-container[34068:19602553] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:37:55.550 plugin-container[34068:19602553] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:37:55.550 plugin-container[34068:19602553] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 13:37:55.551 plugin-container[34068:19602555] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 13:37:55.551 plugin-container[34068:19602555] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:52879
+1683878875637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileKQdVQL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52879/devtools/browser/64480e35-e831-47c1-a46d-64579034c3ed
+2023-05-12 08:08:00.106 plugin-container[34100:19603322] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:08:00.106 plugin-container[34100:19603322] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:08:00.142 plugin-container[34100:19603322] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:08:00.142 plugin-container[34100:19603322] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:08:00.143 plugin-container[34100:19603333] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:08:00.143 plugin-container[34100:19603333] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683878918391	Marionette	INFO	Stopped listening on port 52931
+1683880755972	geckodriver	INFO	Listening on 127.0.0.1:63117
+1683880756482	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile3Jr5BZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683880757883	Marionette	INFO	Marionette enabled
+1683880758014	Marionette	INFO	Listening on port 63160
+Read port: 63160
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-05-12 14:09:18.193 plugin-container[37586:19653163] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:09:18.193 plugin-container[37586:19653163] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:63118
+2023-05-12 14:09:18.232 plugin-container[37586:19653163] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:09:18.233 plugin-container[37586:19653163] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:09:18.233 plugin-container[37586:19653202] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:09:18.233 plugin-container[37586:19653202] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1683880758261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofile3Jr5BZ/search.json.mozlz4", (void 0)))
+2023-05-12 08:39:22.579 plugin-container[37603:19653674] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:39:22.580 plugin-container[37603:19653674] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:63118/devtools/browser/9b93b8d9-ff91-4936-b1e3-f5b04d2eb07b
+2023-05-12 08:39:22.699 plugin-container[37603:19653674] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:39:22.699 plugin-container[37603:19653674] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:39:22.701 plugin-container[37603:19653741] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:39:22.701 plugin-container[37603:19653741] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683880799112	Marionette	INFO	Stopped listening on port 63160
+1683881228069	geckodriver	INFO	Listening on 127.0.0.1:49546
+1683881228588	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRrb49l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683881230052	Marionette	INFO	Marionette enabled
+1683881230279	Marionette	INFO	Listening on port 49593
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 49593
+WebDriver BiDi listening on ws://127.0.0.1:49547
+1683881230443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 14:17:10.472 plugin-container[38206:19665677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:17:10.472 plugin-container[38206:19665677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:17:10.817 plugin-container[38206:19665677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:17:10.817 plugin-container[38206:19665677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:17:10.839 plugin-container[38206:19665682] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:17:10.840 plugin-container[38206:19665682] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileRrb49l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49547/devtools/browser/aa20dc4e-ef34-4908-a47e-e126cadf5d79
+2023-05-12 08:47:14.684 plugin-container[38223:19666229] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:47:14.684 plugin-container[38223:19666229] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:47:14.725 plugin-container[38223:19666229] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:47:14.725 plugin-container[38223:19666229] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:47:14.725 plugin-container[38223:19666230] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:47:14.725 plugin-container[38223:19666230] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1683881271806	Marionette	INFO	Stopped listening on port 49593
+1683881485155	geckodriver	INFO	Listening on 127.0.0.1:51179
+1683881485666	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilee2DBHP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683881486828	Marionette	INFO	Marionette enabled
+1683881487093	Marionette	INFO	Listening on port 51235
+Read port: 51235
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-05-12 14:21:27.283 plugin-container[38625:19672800] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:21:27.283 plugin-container[38625:19672800] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:21:27.418 plugin-container[38625:19672800] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:21:27.418 plugin-container[38625:19672800] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:21:27.418 plugin-container[38625:19672802] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:21:27.418 plugin-container[38625:19672802] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:51180
+1683881487610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilee2DBHP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51180/devtools/browser/5a761117-4f1b-4b9e-a660-80cab0c5d3a9
+2023-05-12 08:51:33.391 plugin-container[38652:19673384] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:51:33.393 plugin-container[38652:19673384] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:51:33.424 plugin-container[38652:19673384] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:51:33.424 plugin-container[38652:19673384] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:51:33.424 plugin-container[38652:19673394] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:51:33.424 plugin-container[38652:19673394] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://d2ogrdw2mh0rsl.cloudfront.net/production/assets/newlive_livejs-951a016345.js, line 8: unreachable code after return statement
+1683881529991	Marionette	INFO	Stopped listening on port 51235
+1683881628213	geckodriver	INFO	Listening on 127.0.0.1:52179
+1683881628230	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilenbsakG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683881629678	Marionette	INFO	Marionette enabled
+1683881629857	Marionette	INFO	Listening on port 52232
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 52232
+2023-05-12 14:23:49.962 plugin-container[38974:19678434] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:23:49.963 plugin-container[38974:19678434] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:52180
+1683881630052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-05-12 14:23:50.074 plugin-container[38974:19678434] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:23:50.074 plugin-container[38974:19678434] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 14:23:50.076 plugin-container[38974:19678461] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 14:23:50.076 plugin-container[38974:19678461] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilenbsakG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52180/devtools/browser/d620ca82-4f17-4b74-8697-ffc50295cd8f
+2023-05-12 08:53:53.796 plugin-container[39007:19679138] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:53:53.796 plugin-container[39007:19679138] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:53:53.896 plugin-container[39007:19679138] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:53:53.896 plugin-container[39007:19679138] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-12 08:53:53.896 plugin-container[39007:19679149] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-12 08:53:53.896 plugin-container[39007:19679149] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1683881669610	Marionette	INFO	Stopped listening on port 52232
