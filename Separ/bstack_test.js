@@ -83,7 +83,7 @@ describe('BrowserStack Login Scenarios', function() {
     let password = await driver.findElement(By.css('#user_password'));
     await password.sendKeys('Shane@800');
 
-    let submitButton = await driver.findElement(By.css('#user_submit'));
+    let submitButton = await driver.(until.elementLocated(By.css('#user_submit')),10000);
     await submitButton.click();
 
     const link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
