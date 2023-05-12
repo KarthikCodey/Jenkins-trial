@@ -12,7 +12,8 @@ describe('BrowserStack Login Scenarios', function() {
   });
 
   it('should handle incorrect email scenario', async function() {
-    await driver.get('https://www.browserstack.com/live');
+    await driver.get('https://live.browserstack.com/dashboard');
+    //await driver.get('https://www.browserstack.com/live');
     await driver.manage().window().maximize();
     let signLink = await driver.wait(until.elementLocated(By.linkText('Sign in')));
     await signLink.click();
@@ -85,7 +86,6 @@ describe('BrowserStack Login Scenarios', function() {
 
     const submitButton = await driver.wait(until.elementLocated(By.css('#user_submit')),10000).click();
     await driver.sleep(5000);
-    await submitButton.click();
     //await submitButton.click();
 
     const link = await driver.wait(until.elementLocated(By.linkText('Live')), 10000).getText();
