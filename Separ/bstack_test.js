@@ -15,8 +15,8 @@ describe('BrowserStack Login Scenarios', function() {
     await driver.get('https://live.browserstack.com/dashboard');
     //await driver.get('https://www.browserstack.com/live');
     await driver.manage().window().maximize();
-    let signLink = await driver.wait(until.elementLocated(By.linkText('Sign in')));
-    await signLink.click();
+    //let signLink = await driver.wait(until.elementLocated(By.linkText('Sign in')));
+    //await signLink.click();
 
     let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800gmail.com');
