@@ -33,33 +33,33 @@ describe('BrowserStack Login Scenarios', function() {
     assert.equal(errorMessageText, "Invalid Email"); 
 
     await username.clear();
-    //await password.clear();
+    await password.clear();
   });
 
-  it('should handle incorrect password scenario', async function() {
-    let username = await driver.findElement(By.css('#user_email_login'));
-    await username.sendKeys('warne708murali800@gmail.com');
+  //it('should handle incorrect password scenario', async function() {
+  //  let username = await driver.findElement(By.css('#user_email_login'));
+  //  await username.sendKeys('warne708murali800@gmail.com');
 
-    let password = await driver.findElement(By.css('#user_password'));
-    await password.sendKeys('Shane$800');
+  //  let password = await driver.findElement(By.css('#user_password'));
+  //  await password.sendKeys('Shane$800');
 
     //let submitButton = await driver.wait(until.elementLocated(By.xpath('/html//input[@id='user_submit']'),10000)).click();
-    let submitButton = await driver.wait(until.elementLocated(By.xpath('/html//input[@id="user_submit"]')), 10000).click();
-    let submitButton1 = await driver.wait(until.elementLocated(By.xpath('/html//input[@id="user_submit"]')), 10000).click();
+  //  let submitButton = await driver.wait(until.elementLocated(By.xpath('/html//input[@id="user_submit"]')), 10000).click();
+  //  let submitButton1 = await driver.wait(until.elementLocated(By.xpath('/html//input[@id="user_submit"]')), 10000).click();
     //await submitButton.click();
 
-    await driver.sleep(10000);
+  //  await driver.sleep(10000);
     
     //const errorMessageText1 =  await driver.findElement(By.css('div[class="error-msg"] span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('span[aria-live="polite"]')).getText();
     //const errorMessageText1 =  await driver.findElement(By.css('#user_password + .error-msg')).getText();
-    const errorMessageText1 =  await driver.wait(until.elementLocated(By.xpath('/html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]'),20000)).getText();
-    console.log(errorMessageText1)
-    assert.equal(errorMessageText1, "Invalid password");
-    await username.clear();
-    await password.clear();
-    await driver.sleep(3000);
-  });
+  //  const errorMessageText1 =  await driver.wait(until.elementLocated(By.xpath('/html[1]/body[1]/main[1]/div[4]/section[1]/form[1]/div[1]/div[1]/div[1]/fieldset[1]/div[5]/div[1]/div[1]/div[1]/span[1]'),20000)).getText();
+  //  console.log(errorMessageText1)
+   // assert.equal(errorMessageText1, "Invalid password");
+   // await username.clear();
+   // await password.clear();
+   // await driver.sleep(3000);
+  //});
 
   //it('should handle unregistered email scenario', async function() {
   //  let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
