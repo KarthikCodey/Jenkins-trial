@@ -78,6 +78,7 @@ describe('BrowserStack Login Scenarios', function() {
   //});
 
   it('should login successfully with correct credentials', async function() {
+    await driver.refresh();
     let username = await driver.wait(until.elementLocated(By.css('#user_email_login')));
     await username.sendKeys('warne708murali800@gmail.com');
 
