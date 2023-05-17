@@ -12,7 +12,7 @@ const parallelConfig = {
       'browserstack',
       { buildIdentifier: '${BUILD_NUMBER}',
         testObservability: true,
-        browserstackLocal: true,
+        browserstackLocal: false,
         opts: { forcelocal: false, localIdentifier: "webdriverio-appium-app-browserstack-repo" },
         app: process.env.BROWSERSTACK_APP_PATH || 'wikipedia1.apk',
         testObservabilityOptions: {
