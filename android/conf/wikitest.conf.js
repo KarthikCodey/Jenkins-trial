@@ -17,7 +17,7 @@ const parallelConfig = {
         app: process.env.BROWSERSTACK_APP_PATH || 'wikipedia1.apk',
         testObservabilityOptions: {
             'projectName': 'BrowserStack Samples',
-            'buildName': 'browserstack build',
+            'buildName': 'wikipedia',
             'buildTag': 'WDIO'
         }},
       { buildIdentifier: '#${BUILD_NUMBER}' },
