@@ -14,7 +14,7 @@ const parallelConfig = {
         testObservability: true,
         browserstackLocal: false,
         opts: { forcelocal: false, localIdentifier: "webdriverio-appium-app-browserstack-repo" },
-        app: process.env.BROWSERSTACK_APP_PATH || 'BStackSampleApp.ipa',
+        app: process.env.BROWSERSTACK_APP_PATH || 'wikipedia.zip',
         testObservabilityOptions: {
             'projectName': 'BrowserStack Samples',
             'buildName': 'Sample App',
