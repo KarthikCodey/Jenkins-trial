@@ -17,7 +17,7 @@ const parallelConfig = {
         app: process.env.BROWSERSTACK_APP_PATH || 'BStackSampleApp.ipa',
         testObservabilityOptions: {
             'projectName': 'BrowserStack Samples',
-            'buildName': 'browserstack build',
+            'buildName': 'Sample App',
             'buildTag': 'IOS'
         }},
       { buildIdentifier: '#${BUILD_NUMBER}' },
@@ -31,8 +31,8 @@ const parallelConfig = {
     }
   }, {
     'bstack:options': {
-      deviceName: 'iPhone 14 Pro Max',
-      platformVersion: '16',
+      deviceName: 'iPhone XS',
+      platformVersion: '15',
       platformName: 'ios',
     }}, {
     'bstack:options': {
