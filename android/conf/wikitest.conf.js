@@ -4,7 +4,7 @@ const parallelConfig = {
   maxInstances: 10,
   commonCapabilities: {
     'bstack:options': {
-      buildName: 'wikipedia',
+      buildName: 'browserstack build',
       source: 'webdriverio:sample-master:v1.2'}
   },
   services: [
@@ -17,7 +17,7 @@ const parallelConfig = {
         app: process.env.BROWSERSTACK_APP_PATH || 'wikipedia1.apk',
         testObservabilityOptions: {
             'projectName': 'BrowserStack Samples',
-            'buildName': 'wikipedia',
+            'buildName': 'browserstack build',
             'buildTag': 'WDIO'
         }},
       { buildIdentifier: '#${BUILD_NUMBER}' },
