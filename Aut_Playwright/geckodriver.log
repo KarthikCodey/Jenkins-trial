@@ -1,0 +1,88 @@
+1680516340892	geckodriver	INFO	Listening on 127.0.0.1:50435
+1680517540865	geckodriver	INFO	Listening on 127.0.0.1:56448
+1680517541374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56449" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileg8nWoU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680517542381	Marionette	INFO	Marionette enabled
+2023-04-03 15:55:42.531 plugin-container[98537:6673033] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 15:55:42.531 plugin-container[98537:6673033] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 15:55:42.538 plugin-container[98537:6673033] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 15:55:42.538 plugin-container[98537:6673033] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 15:55:42.538 plugin-container[98537:6673040] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 15:55:42.538 plugin-container[98537:6673040] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680517542589	Marionette	INFO	Listening on port 56482
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 56482
+WebDriver BiDi listening on ws://127.0.0.1:56449
+1680517542907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileg8nWoU/search.json.mozlz4", (void 0)))
+2023-04-03 10:25:44.335 plugin-container[98540:6673283] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:25:44.335 plugin-container[98540:6673283] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 10:25:44.337 plugin-container[98540:6673283] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:25:44.337 plugin-container[98540:6673283] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 10:25:44.337 plugin-container[98540:6673285] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:25:44.337 plugin-container[98540:6673285] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:56449/devtools/browser/26c7ef54-a66a-4daa-a30c-760bbebb734e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680517552377	Marionette	INFO	Stopped listening on port 56482
+1680519585644	geckodriver	INFO	Listening on 127.0.0.1:59082
+1680519586163	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59083" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilejVkgX5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680519586934	Marionette	INFO	Marionette enabled
+1680519587007	Marionette	INFO	Listening on port 59107
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:59083
+2023-04-03 16:29:47.086 plugin-container[99018:6683344] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:29:47.086 plugin-container[99018:6683344] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:29:47.098 plugin-container[99018:6683344] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:29:47.098 plugin-container[99018:6683344] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 16:29:47.098 plugin-container[99018:6683359] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 16:29:47.098 plugin-container[99018:6683359] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 59107
+1680519587466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofilejVkgX5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59083/devtools/browser/0781b446-a517-4749-86b1-7ed1c4bbd2c3
+2023-04-03 10:59:48.356 plugin-container[99023:6683552] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:59:48.357 plugin-container[99023:6683552] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 10:59:48.360 plugin-container[99023:6683552] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:59:48.360 plugin-container[99023:6683552] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 10:59:48.360 plugin-container[99023:6683551] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 10:59:48.360 plugin-container[99023:6683551] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680519596495	Marionette	INFO	Stopped listening on port 59107
+1680523998408	geckodriver	INFO	Listening on 127.0.0.1:61432
+1680523998920	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61433" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileO7QaKn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680523999687	Marionette	INFO	Marionette enabled
+1680523999774	Marionette	INFO	Listening on port 61461
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:61433
+Read port: 61461
+2023-04-03 17:43:19.905 plugin-container[519:6728119] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:43:19.905 plugin-container[519:6728119] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1680523999935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-04-03 17:43:19.963 plugin-container[519:6728119] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:43:19.963 plugin-container[519:6728119] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 17:43:19.963 plugin-container[519:6728144] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 17:43:19.963 plugin-container[519:6728144] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/54/q3vqq1qd74j86v29xhd4r2mc0000gq/T/rust_mozprofileO7QaKn/search.json.mozlz4", (void 0)))
+2023-04-03 12:13:21.909 plugin-container[523:6728340] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 12:13:21.911 plugin-container[523:6728340] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 12:13:21.915 plugin-container[523:6728340] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 12:13:21.915 plugin-container[523:6728340] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-03 12:13:21.916 plugin-container[523:6728342] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-03 12:13:21.916 plugin-container[523:6728342] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:61433/devtools/browser/2606e30b-9055-4e9e-9046-eef8e8fb7efa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.browserstack.com."
+1680524009382	Marionette	INFO	Stopped listening on port 61461
