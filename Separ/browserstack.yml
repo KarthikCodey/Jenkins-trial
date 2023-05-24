@@ -11,7 +11,7 @@ accessKey: xKaXkaGAnzjFNKmzkqmY
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: BrowserStack Samples
+projectName: BrowserStack Samples Jenk
 # Set `buildName` as the name of the job / testsuite being run
 buildName: BrowserStack Samples Jenk
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
@@ -101,7 +101,7 @@ testObservability: true
 # ===================
 # Debugging features
 # ===================
-debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
+debug: true # <boolean> # Set to true if you need screenshots for every selenium command ran
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
